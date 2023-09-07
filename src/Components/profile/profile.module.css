@@ -1,0 +1,77 @@
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2.688rem;
+  width: 100%;
+}
+
+.userName {
+  color: #1C1C1C;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.938rem; /* 110.714% */
+  margin: 0 auto;
+}
+
+.message {
+  color: #737373;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.063rem; /* 121.429% */
+  margin-top: 0.563rem;
+  margin-bottom: 0;
+}
+
+.mask {
+  width: 3.375rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  fill: #FF9F41;
+}
+
+.imgUser {
+  width: 2.875rem;
+  height: 2.875rem;
+  flex-shrink: 0;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+@media only screen and (min-width: 700px) {
+  .userName {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.938rem; /* 110.714% */
+    margin: 0 auto;
+  }
+  
+  .message {
+    color: #737373;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.063rem; /* 121.429% */
+    margin-top: 0.563rem;
+    margin-bottom: 0;
+  }
+  
+  .mask {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .imgUser {
+    width: 2.875rem;
+    height: 2.875rem;
+    flex-shrink: 0;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+  }
+}

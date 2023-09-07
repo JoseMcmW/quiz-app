@@ -1,0 +1,107 @@
+.containerCard {
+  width: 90%;
+  display: flex;
+  justify-self: center;
+  flex-shrink: 0;
+  border-radius: 0.875rem;
+  background: #FFF;
+  box-shadow: 0.25rem 0.25rem 0.75rem 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Altura alta */
+.cardNormal {
+  height: 11.8rem;
+}
+
+/* Altura baja */
+.cardSmall {
+  height: 10rem;
+  position: relative;
+}
+
+.cardUpForId3,
+.cardUpForId5 {
+  margin-top: -1.8rem; /* Puedes ajustar este valor según tus necesidades */
+}
+
+.imgCard {
+  width: 5.625rem;
+  flex-shrink: 0;
+  position: absolute;
+  top: -0.9375rem;
+  left: 1rem;
+}
+
+.titleCard {
+  color: #1C1C1C;
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 5rem;
+  left: 0.8125rem;
+}
+
+.questionsCard {
+  color: #1C1C1C;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 6.5rem;
+  left: 0.8125rem;
+}
+
+.shadow {
+  position: absolute;
+  top: 3.2rem;
+  left: 0.4rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .titleCard {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 6.1rem;
+    left: 2rem;
+  }
+
+  .questionsCard {
+    font-size: 1rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 2rem;
+  }
+
+  .imgCard {
+    width: 6.5rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: -0.9375rem;
+    left: 1.3rem;
+  }
+
+  /* Altura alta */
+  .cardNormal {
+    height: 11.8rem;
+  }
+
+  /* Altura baja */
+  .cardSmall {
+    height: 11.8rem;
+    position: relative;
+  }
+
+  .cardUpForId3,
+  .cardUpForId5 {
+    margin-top: 0rem; /* Puedes ajustar este valor según tus necesidades */
+  }
+
+  .shadow {
+    position: absolute;
+    top: 4.5rem;
+    left: 0.9rem;
+  }
+}

@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  max-width: none;
+}
+
+.containerCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.title {
+  width: 90%;
+  color: #1C1C1C;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0.8rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .containerCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .title {
+    width: 95%;
+    color: #1C1C1C;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1rem;
+  }
+}

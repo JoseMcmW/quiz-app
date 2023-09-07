@@ -1,0 +1,42 @@
+.containerBarProgress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 3.125rem;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1.063rem;
+  border: 1px solid #EFEFEF;
+  background: #FFF;
+  height: 2.125rem;
+}
+
+.progressBar {
+  height: 0.5rem;
+  border-radius: 12px;
+  background-color: #FF9F41;
+  transition: width 1s ease-in-out 0s;
+}
+
+.currentQuestion {
+  color: #3EB8D4;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .currentQuestion {
+    color: #3EB8D4;
+    text-align: right;
+    font-size: 1rem;
+  }
+}
+
